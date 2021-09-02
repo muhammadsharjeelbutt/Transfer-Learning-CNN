@@ -26,6 +26,7 @@ Aim
 -----
 
 Goal is to make transfer learning easy and accessible for all in a manner where experimentation is made easier. Feel free to contribute.
+目標は、実験が容易になる方法で、すべての人が転移学習を簡単に利用できるようにすることです。お気軽にご貢献ください。
 
 Setup
 -----
