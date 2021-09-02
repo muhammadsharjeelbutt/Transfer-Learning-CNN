@@ -1,0 +1,30 @@
+from tensorflow import keras
+from keras.layers import Input, Lambda, Dense, Flatten
+from keras.models import Model
+from keras.applications.vgg16 import VGG16
+from keras.preprocessing import image
+from keras.preprocessing.image import ImageDataGenerator
+from keras.models import Sequential
+import numpy as np
+from glob import glob
+#import tensorflow as tf
+#import tensorflow.compat.v1 as tf
+import tensorflow._api.v2.compat.v1 as tf
+tf.disable_v2_behavior()
+import pandas as pd
+from pandas import DataFrame
+from sklearn.metrics import classification_report, confusion_matrix
+from sklearn.metrics import plot_confusion_matrix
+import seaborn as sns
+import matplotlib.pyplot as plt
+import ssl
+ssl._create_default_https_context = ssl._create_unverified_context
+import warnings
+with warnings.catch_warnings():
+    warnings.simplefilter("ignore",category=FutureWarning)
+    warnings.simplefilter("ignore",category=PendingDeprecationWarning)
+import os
+import multiprocessing
+import random as rn
+#from keras import backend as K
+from tensorflow.python.keras import backend as K
